@@ -1,4 +1,5 @@
-.work {
+.news {
     display: flex;
     align-self: center;
+    margin-left: 100px;
 }

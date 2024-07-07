@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.infopage {
+    display: flex;
+    flex-direction: row; /* 가로로 배치 */
+    justify-content: space-between; /* 요소들 사이의 간격 균등하게 배치 */
+    padding: 20px; /* 필요에 따라 패딩 추가 */
+
+    font-family: "Mukta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .infopage > div {
+    flex: 1; /* 남은 공간을 차지하도록 설정 */
+    box-sizing: border-box; /* 패딩과 보더를 포함하여 크기 계산 */
+    padding: 20px; /* 내부 패딩 추가 */
+  }
+  
+  .infopage img {
+    max-width: 100%; /* 이미지 크기를 컨테이너에 맞게 조정 */
+    height: auto; /* 이미지 비율 유지 */
+
+  }

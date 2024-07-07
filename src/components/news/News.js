@@ -1,9 +1,10 @@
 import React from 'react'
+import "./News.css";
 
 const News = () => {
   return (
-    <div>
-      <p>News Page</p>
+    <div className='news'>
+      <h2>This page is being prepared</h2>
     </div>
   )
 }

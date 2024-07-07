@@ -2,8 +2,8 @@ import React from 'react'
 import './Work.css'
 const Work = () => {
   return (
-    <div>
-      Work Page
+    <div className='work'>
+      <h2>This page is being prepared</h2>
     </div>
   )
 }
