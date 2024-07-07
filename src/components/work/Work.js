@@ -1,9 +1,9 @@
 import React from 'react'
-
+import './Work.css'
 const Work = () => {
   return (
     <div>
-      <p>Work Test</p>
+      Work Page
     </div>
   )
 }
